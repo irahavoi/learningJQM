@@ -1,0 +1,17 @@
+Page transition events:
+pagebeforehide
+This event fires on the page being transitioned from, before the transition starts.
+ui.nextPage will be either the page being transitioned to, or an empty jQuery object
+if there is none.
+pagebeforeshow
+This event fires on the page being transitioned to, before the transition starts.
+ui.prevPage will be the page being transitioned from, or an empty jQuery object if
+there is none.
+pagehide
+This event fires on the page being transitioned from, after the transition finishes.
+ui.nextPage will be the jQuery object of the page being transitioned to, or empty
+if it does not exist.
+pageshow
+This event fires on the page being transitioned to, after the transition finishes.
+ui.prevPage will contain the jQuery object of the page being transitioned from, or
+empty if it does not exist.
